@@ -47,3 +47,5 @@ secrets.json
 ## Sistema
 Thumbs.db
 .DS_Store
+## Visual Studio local service dependencies
+*.local.json
