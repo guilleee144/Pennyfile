@@ -1,0 +1,49 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+
+## Tests
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.xml
+playwright-report/
+test-results/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## Secretos y configuración local (nunca subir)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+.env.*
+*.pfx
+
+## Bases de datos locales
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+## Sistema
+Thumbs.db
+.DS_Store
